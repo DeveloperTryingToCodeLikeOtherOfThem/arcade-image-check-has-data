@@ -1,6 +1,6 @@
 interface Image {
     //% helper=imageIsHavingDataSheet 
-    //% blockId=image_contains_data_sheet block="contains data sheet"
+    //% blockId=image_contains_data_sheet block="%picture=variables_get(picture) contains data sheet"
     /**
      * checks if the sprite has a color without only transparency data
      */
